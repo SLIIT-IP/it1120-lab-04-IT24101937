@@ -7,8 +7,8 @@ import java.util.Scanner;
             int compareNumber = keyboard.nextInt();
             
             
-            String g = compareNumber < 0 ?  "The number you entered is negative" :(compareNumber > 0)? "The number you entered is positive" : "the number would be zero" ;
-            System.out.println (g);
+            String store = compareNumber < 0 ?  "The number you entered is negative" :(compareNumber > 0)? "The number you entered is positive" : "the number would be zero" ;
+            System.out.println (store);
             
         
             
